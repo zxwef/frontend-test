@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Сверстайте тестовую страницу</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__body">
+        <nav class="header__mainmenu">
+          <a href="javascript:;" class="header__menu-item header__menu-item_color_purple">Личный кабинет</a>
+          <a href="javascript:;" class="header__menu-item header__menu-item_color_green">Раздел 1</a>
+          <a href="javascript:;" class="header__menu-item header__menu-item_color_blue">Раздел 2</a>
+          <a href="javascript:;" class="header__menu-item header__menu-item_color_orange">Раздел 3</a>
+          <a href="javascript:;" class="header__menu-item header__menu-item_color_black">Раздел 4</a>
+          <a href="javascript:;" class="header__menu-item header__menu-item_color_red">Раздел 5</a>
+        </nav>
+      </div>
+    </header>
+    <div class="sidebar">
+      <p>
+				&#9728;Tutu.ru - крупнейший сервис поиска, бронирования и покупки авиабилетов
+	      и жд билетов.
+      </p>
+
+      <p>
+				Наша цель проста - делать наших клиентов счастливыми, а их путешествия
+	      незабываемыми. Любое путешествие начинается с поиска подходящих билетов и
+	      бронирования гостиниц. А мы делаем это качественно, обеспечивая самую
+	      лучшую поддержку благодаря собственному контакт центру.
+      </p>
+    </div>
+    <div class="wrapper__content">
+      <form action="" class="form">
+        <div class="progressbar">
+          <div class="progressbar__body">
+            <span class="progressbar__big-title">Заполните форму</span>
+            <div class="progressbar__sections">
+              <div class="progressbar__section progressbar__section_color_green">1</div>
+              <div class="progressbar__section progressbar__section_color_green">2</div>
+              <div class="progressbar__section progressbar__section_color_lgreen">3</div>
+              <div class="progressbar__section">4</div>
+              <div class="progressbar__section">5</div>
+            </div>
+          </div>
+        </div>
+        <div class="title-common-info">
+          <div class="title-common-info-body">
+            <span class="title-common-info__italic">Общая информация</span>
+            <div class="title-common-info__line"></div>
+          </div>
+        </div>
+
+        <div class="form__fieldset">
+
+          <div class="form__input-group">
+            <label class="form__label">
+              <span class="form__label-span">Фамилия</span>
+              <input type="text" name="Surname" class="form__input" value="">
+            </label>
+          </div>
+
+          <div class="form__input-group">
+            <label class="form__label">
+              <span class="form__label-span">Имя</span>
+              <input type="text" name="Name" class="form__input" value="">
+            </label>
+          </div>
+
+          <div class="form__input-group form__input-group_size_big-right">
+            <label class="form__label">
+              <span class="form__label-span">Отчество</span>
+              <input type="text" name="Middlename" class="form__input form__input_size_big-right" value="">
+            </label>
+          </div>
+
+          <div class="form__input-group">
+              <span class="form__label-span">Меняли фамилию?</span>
+              <div class="form__styled-checkbox">
+                <input type="checkbox" name="ChangeSurname" class="form__hidden"  />
+                <div class="form__checkbox-button">
+                  <span class="form__checkbox-button-span">Да</span>
+                </div>
+                <div class="form__checkbox-button form__checkbox-button_active">
+                  <span class="form__checkbox-button-span">Нет</span>
+                </div>
+              </div>
+          </div>
+
+          <div class="form__input-group">
+              <span class="form__label-span">Пол</span>
+              <div class="form__styled-checkbox">
+                <input type="checkbox" name="Sex" class="form__hidden"  />
+                <div class="form__checkbox-button form__checkbox-button_active">
+                  <span class="form__checkbox-button-span">Муж</span>
+                </div>
+                <div class="form__checkbox-button">
+                  <span class="form__checkbox-button-span">Жен</span>
+                </div>
+              </div>
+          </div>
+
+          <div class="form__input-group form__input-group_size_big-right">
+            <label class="form__label">
+              <span class="form__label-span">Семейное положение</span>
+              <select name="MaritalStatus" class="form__select form__select_size_big">
+                <option value="0">Женат / Замужем</option>
+                <option value="1">Холост</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="form__input-group">
+            <label class="form__label">
+              <span class="form__label-span">Гражданство</span>
+              <select name="Citizenship" class="form__select form__select_size_big">
+                <option value="">Российская федерация</option>
+                <option value="">Казахстан</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="form__input-group">
+            <label class="form__label">
+              <span class="form__label-span">Дата рождения</span>
+              <span class="form__select-group">
+                <select name="Day" class="form__select-date">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                </select>
+                <select name="Month" class="form__select-date">
+                  <option value="">Январь</option>
+                  <option value="">Февраль</option>
+                  <option value="">Март</option>
+                </select>
+                <select name="Year" class="form__select-date">
+                  <option value="">1970</option>
+                  <option value="">1971</option>
+                  <option value="">1972</option>
+                </select>
+              </span>
+            </label>
+          </div>
+
+          <div class="form__input-group form__input-group_size_big">
+            <label class="form__label">
+              <span class="form__label-span">Место рождения</span>
+              <input type="text" name="Surname" class="form__input form__input_size_big" value="">
+              <span class="form__helper">Например, Россия, Комсомольск-на-Амуре</span>
+            </label>
+          </div>
+
+          <div class="form__button-panel">
+            <button type="button" class="form__nav-button form__nav-button_position_left" disabled>&larr; Назад</button>
+            <button type="submit" class="form__nav-button form__nav-button_position_right">Далее &rarr;</button>
+          </div>
+
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

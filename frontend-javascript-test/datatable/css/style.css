@@ -1,0 +1,8 @@
+
+#loadStatus {
+  display: none;
+}
+
+#loadStatus.active {
+  display: block;
+}

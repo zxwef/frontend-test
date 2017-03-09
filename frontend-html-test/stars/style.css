@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+.wrapper {
+
+}
+
+.stars {
+
+}
+
+.stars__item {
+  float: left;
+}
+
+.stars__item::after {
+  content: '\2605';
+  color: #ccc;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.stars__item:hover::after {
+  color: #ff0055 !important;
+}
+
+.stars_active_1 .si1::after,
+.stars_active_2 .si2::after,
+.stars_active_3 .si3::after,
+.stars_active_4 .si4::after,
+.stars_active_5 .si5::after {
+  color: #dd55ff;
+}
+
+.stars_hover_1 .si1::after,
+.stars_hover_2 .si2::after,
+.stars_hover_3 .si3::after,
+.stars_hover_4 .si4::after,
+.stars_hover_5 .si5::after {
+  color: #dd55ff;
+}

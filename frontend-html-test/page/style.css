@@ -1,0 +1,300 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 12px;
+  font-family: "Arial", sans-serif;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+/* Основные
+*******************************************************************************/
+
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+
+/* Шапка
+*******************************************************************************/
+
+.header__body {
+  float: left;
+  width: 100%;
+  height: 169px;
+}
+
+.header__mainmenu {
+  float: right;
+  width: 784px;
+  height: 67px;
+  padding-left: 50px;
+  margin-top: 25px;
+  border-top: 1px solid #f4f4f4;
+  border-right: 1px solid #dedede;
+  border-bottom: 1px solid #bdbdbd;
+  border-left: 1px solid #dedede;
+  border-radius: 10px;
+  box-shadow: 1px 0px 1px #dedede;
+  box-sizing: border-box;
+}
+
+.header__menu-item {
+  color: #000;
+  font-size: 15px;
+  line-height: 64px;
+  margin-right: 43px;
+}
+
+.header__menu-item_color_purple {
+  color: #4900a4;
+}
+
+.header__menu-item_color_green {
+  color: #457349;
+}
+
+.header__menu-item_color_blue {
+  color: #0e73e6;
+}
+
+.header__menu-item_color_orange {
+  color: #dd4c00;
+}
+
+.header__menu-item_color_black {
+  color: #000;
+}
+
+.header__menu-item_color_red {
+  color: #b60700;
+}
+
+/* Левый сайдбар
+*******************************************************************************/
+
+.sidebar {
+  float: left;
+  width: 200px;
+  line-height: 19px;
+}
+
+
+/* Контент
+*******************************************************************************/
+
+.wrapper__content {
+  float: right;
+  width: 784px;
+  padding-bottom: 120px;
+}
+
+
+.progressbar__body {
+  float: left;
+  width: 100%;
+}
+
+.progressbar__big-title {
+  font-size: 24px;
+}
+
+.progressbar__sections {
+  float: right;
+  margin-top: 10px;
+  border-radius: 4px;
+  /*box-shadow: inset 1px 1px 1px #999999;*/
+  overflow: hidden;
+}
+
+.progressbar__section {
+  float: left;
+  width: 107px;
+  height: 14px;
+  margin-right: 1px;
+  background: #f6f6f6;
+  box-shadow: inset 0px 1px 2px #999999;
+  text-align: center;
+  color: #7b7b7b;
+  font-style: italic;
+}
+
+.progressbar__section_color_green {
+  background: #3bad19;
+  box-shadow: inset 0px 1px 2px #21600e;
+  color: #fff;
+}
+
+.progressbar__section_color_lgreen {
+  background: #a4d807;
+  box-shadow: inset 0px 1px 2px #597602;
+  color: #fff;
+}
+
+.title-common-info-body {
+  float: left;
+  width: 100%;
+  margin-top: 25px;
+  font-size: 13px;
+}
+
+.title-common-info__italic {
+  font-style: italic;
+  color: #666666;
+}
+
+.title-common-info__line {
+  float: right;
+  width: 654px;
+  height: 1px;
+  margin-top: 8px;
+  background: #cacaca;
+}
+
+/*---*/
+
+.form__fieldset {
+  float: left;
+  width: 100%;
+  margin-top: 23px;
+}
+
+.form__hidden {
+  display: none;
+}
+
+.form__input-group {
+  float: left;
+  width: 246px;
+  height: 43px;
+  margin: 0 0 30px 0;
+}
+
+.form__input-group_size_big {
+  width: 100%;
+}
+
+.form__input-group_size_big-right {
+  width: 292px;
+}
+
+.form__label-span {
+  float: left;
+  font-weight: bold;
+}
+
+.form__input {
+  float: left;
+  clear: both;
+  width: 195px;
+  height: 20px;
+  margin-top: 8px;
+  border: 1px solid #abadb3;
+}
+
+.form__input_size_big {
+  width: 100%;
+}
+
+.form__input_size_big-right {
+  width: 280px;
+}
+
+.form__styled-checkbox {
+  float: left;
+  clear: both;
+  margin-top: 8px;
+}
+
+.form__checkbox-button {
+  float: left;
+  padding: 4px;
+  margin-right: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.form__checkbox-button_active {
+  padding: 3px 6px;
+  border-radius: 7px;
+  background: #8cb903;
+  color: #fff;
+  text-decoration: none;
+  cursor: default;
+}
+
+.form__checkbox-button-span {
+ border-bottom: 1px dotted #000;
+}
+
+.form__checkbox-button_active .form__checkbox-button-span {
+  border-bottom: none;
+}
+
+.form__select, .form__select-group {
+  float: left;
+  clear: both;
+  margin-top: 8px;
+}
+
+.form__select_size_big {
+  width: 195px;
+}
+
+.form__select-date {
+  margin-right: 3px;
+}
+
+.form__helper {
+  float: left;
+  color: #7a7a7a;
+  line-height: 2em;
+}
+
+.form__button-panel {
+  float: left;
+  width: 100%;
+  padding: 14px 12px;
+  background: #f2f2f2;
+}
+
+.form__nav-button {
+  border: none;
+  padding: 9px 30px;
+  border-radius: 21px;
+  background: linear-gradient(to bottom, #d4ee84, #7da703);
+  -pie-background: linear-gradient(to bottom, #d4ee84, #7da703);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  behavior: url(PIE.htc);
+}
+
+.form__nav-button:disabled {
+  background: linear-gradient(to bottom, #e3e3e3, #7e7e7e);
+  -pie-background: linear-gradient(to bottom, #e3e3e3, #7e7e7e);
+  cursor: default;
+  behavior: url(PIE.htc);
+}
+
+.form__nav-button_position_left {
+  float: left;
+}
+
+.form__nav-button_position_right {
+  float: right;
+}
+
+
+
+
+
+/* Футер (которого нет)
+*******************************************************************************/

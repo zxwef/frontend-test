@@ -1,0 +1,43 @@
+.progress-bar {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.progress-bar__pane {
+  position: relative;
+  float: left;
+  width: 450px;
+  height: 20px;
+  border: 1px solid #f7f7f7;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: inset 1px 1px 6px #cecece;
+  text-align: center;
+  overflow: hidden;
+}
+
+.progress-bar__bar {
+  position: absolute;
+  width: 0%;
+  height: inherit;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to bottom, #7fff57 0%, #7fff57 10%, #00d627 48%, #00d627 56%, #7fff57 100%, #00d627 2%);
+  -pie-background: linear-gradient(rgba(127, 255, 87, 0.4), rgba(0, 206, 32, 1));
+  transition: width 0.31s linear;
+  border-radius: 10px;
+  z-index: 0;
+  behavior: url(PIE.htc);
+}
+
+.progress-bar__percents {
+  position: relative;
+  display: inline;
+  font-size: 1em;
+  line-height: 1.7em;
+  z-index: 1;
+}
+
+.progress-bar__percents::after {
+  content: "%";
+}
